@@ -1,0 +1,83 @@
+.mainNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navItems {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.navList {
+  display: flex;
+  gap: 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 200;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  color: rgba(247, 244, 239, 0.8);
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
+}
+.contactInfo {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 200;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  color: rgba(247, 244, 239, 0.8);
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
+}
+.titleText {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 28px;
+  color: rgba(255, 245, 219, 0.8);
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
+}
+.navListItems {
+  cursor: pointer;
+}
+.hambugerMenu {
+  display: none;
+}
+/* MEDIA QUERY FOR MOBILE */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .contactInfo {
+    display: none;
+  }
+  .navList {
+    display: none;
+  }
+  .hambugerMenu {
+    display: flex;
+    font-size: larger;
+  }
+  .navItems {
+    width: 90%;
+  }
+}
+/* MEDIA QUERY FOR TABLETS */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .navItems {
+    width: 95%;
+  }
+  .hambugerMenu {
+    display: none;
+  }
+}
