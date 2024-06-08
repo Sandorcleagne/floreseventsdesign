@@ -1,0 +1,38 @@
+.producInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.productName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: Cormorant Garamond;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.35em;
+  letter-spacing: 0.02em;
+  text-rendering: optimizeLegibility;
+}
+.avaiProduct {
+  color: rgb(87, 178, 87);
+}
+.notAvailable {
+  color: rgb(203, 84, 84);
+}
+.productPrice {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-family: Cormorant Garamond;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.35em;
+  letter-spacing: 0.02em;
+  text-rendering: optimizeLegibility;
+}

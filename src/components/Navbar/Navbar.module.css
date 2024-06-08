@@ -36,6 +36,7 @@
   line-height: 1.2em;
   letter-spacing: 0.015em;
   text-transform: capitalize;
+  text-decoration: none;
 }
 .titleText {
   font-family: "Cormorant Garamond", serif;
@@ -48,6 +49,7 @@
   line-height: 1.2em;
   letter-spacing: 0.015em;
   text-transform: capitalize;
+  text-decoration: none;
 }
 .navListItems {
   cursor: pointer;
