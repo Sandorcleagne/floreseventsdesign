@@ -4,7 +4,11 @@ import Link from "next/link";
 import React from "react";
 import styles from "./ProductCard.module.css";
 import { motion } from "framer-motion";
-const ProductCard = ({ info }) => {
+import { Information } from "@/types";
+interface MyComponentProps {
+  info: Information;
+}
+const ProductCard: React.FC<MyComponentProps> = ({ info }) => {
   const {
     producInfoContainer,
     productName,
