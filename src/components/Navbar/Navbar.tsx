@@ -3,9 +3,10 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { menuItems } from "@/constant";
 import styles from "./Navbar.module.css";
-import { Offcanvas } from "react-bootstrap";
+import Modal from "react-bootstrap/Modal";
 const Navbar = () => {
   const [show, setShow] = useState<boolean>(false);
+  const [fullscreen, setFullscreen] = useState<boolean>(true);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const {
@@ -33,7 +34,7 @@ const Navbar = () => {
             ))}
           </div>
           <div className={contactInfo}>
-            <a href={"tel:+91-8882103359"}>+91-8882103359</a>
+            <a href={"tel:+91-9971632583"}>+91-9971632583</a>
           </div>
           <button className={hambugerMenu} onClick={handleShow}>
             {" "}

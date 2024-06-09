@@ -23,7 +23,7 @@ export const menuItems = [
 
 export const shopItems = [
   {
-    id: "1",
+    id: 1,
     image: "/flowers/flower1.jpg",
     productName: "Ruysch Arrangement",
     productDescription:
@@ -32,7 +32,7 @@ export const shopItems = [
     availability: true,
   },
   {
-    id: "2",
+    id: 2,
     image: "/flowers/flower2.jpg",
     productName: "De Heem Bouquet",
     productDescription:
@@ -41,7 +41,7 @@ export const shopItems = [
     availability: true,
   },
   {
-    id: "3",
+    id: 3,
     image: "/flowers/flower3.jpg",
     productName: "Van Alest Bouquet",
     productDescription:
@@ -50,7 +50,7 @@ export const shopItems = [
     availability: false,
   },
   {
-    id: "4",
+    id: 4,
     image: "/flowers/flower4.jpg",
     productName: "Ruysch Arrangement",
     productDescription:
@@ -59,7 +59,7 @@ export const shopItems = [
     availability: true,
   },
   {
-    id: "5",
+    id: 5,
     image: "/flowers/flower2.jpg",
     productName: "Vosmayer Agement",
     productDescription:

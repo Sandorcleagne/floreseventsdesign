@@ -23,7 +23,11 @@ const ProductCard: React.FC<MyComponentProps> = ({ info }) => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
     >
-      <Link href="/">
+      <Link
+        href={{
+          pathname: `/shop/${info?.id}`,
+        }}
+      >
         <Image src={info?.image} alt="flowers" height={30} width={300} />
         <div className={producInfoContainer}>
           <div className={productName}>
