@@ -6,8 +6,6 @@ import styles from "./Navbar.module.css";
 import Modal from "react-bootstrap/Modal";
 const Navbar = () => {
   const [show, setShow] = useState<boolean>(false);
-  const [fullscreen, setFullscreen] = useState<boolean>(true);
-  const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const {
     mainNav,
@@ -42,15 +40,14 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
-      {/* <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas> */}
+      <Modal show={show} fullscreen={true} onHide={() => setShow(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title>
+            <Link href={"/"}>Flores Events</Link>
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body></Modal.Body>
+      </Modal>
     </>
   );
 };

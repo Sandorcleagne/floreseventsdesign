@@ -57,6 +57,10 @@
 .hambugerMenu {
   display: none;
 }
+.modalMain {
+  background-color: #161b22;
+}
+
 /* MEDIA QUERY FOR MOBILE */
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
   .contactInfo {
