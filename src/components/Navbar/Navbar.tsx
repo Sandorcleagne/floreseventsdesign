@@ -7,6 +7,7 @@ import Modal from "react-bootstrap/Modal";
 const Navbar = () => {
   const [show, setShow] = useState<boolean>(false);
   const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
   const {
     mainNav,
     titleText,
@@ -15,6 +16,8 @@ const Navbar = () => {
     contactInfo,
     navList,
     navListItems,
+    mobNavListStyleMain,
+    navListLi,
   } = styles;
   return (
     <>
@@ -46,7 +49,17 @@ const Navbar = () => {
             <Link href={"/"}>Flores Events</Link>
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body></Modal.Body>
+        <Modal.Body>
+          <ul className={mobNavListStyleMain}>
+            {menuItems.map((items) => (
+              <Link key={items?.id} href={items?.href}>
+                <li onClick={() => handleClose()} className={navListLi}>
+                  {items?.title}
+                </li>
+              </Link>
+            ))}
+          </ul>
+        </Modal.Body>
       </Modal>
     </>
   );
