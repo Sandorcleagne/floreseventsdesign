@@ -2,20 +2,19 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 import Link from "next/link";
 const Hero = () => {
   const { mainHero, btnContainer, homeBtn, centered } = styles;
-  const slideVariants = {
-    hidden: { y: "-100%", opacity: 0 },
-    visible: { y: 0, opacity: 1 },
-  };
+
   return (
     <motion.div
-      initial="hidden"
-      animate="visible"
-      variants={slideVariants}
-      transition={{ duration: 1 }}
+      initial={{ opacity: 0 }} // Start fully transparent
+      animate={{ opacity: 1 }} // End fully visible
+      transition={{
+        duration: 1.5, // Animation duration (1.5 seconds)
+        ease: "easeInOut", // Smooth easing
+      }}
       className={mainHero}
     >
       <Image
