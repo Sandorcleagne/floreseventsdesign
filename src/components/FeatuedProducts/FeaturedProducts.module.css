@@ -1,0 +1,38 @@
+.main {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80%;
+}
+.mainHeading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.productSection {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .mainHeading {
+    font-size: 27px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .mainHeading {
+    font-size: 27px;
+  }
+}

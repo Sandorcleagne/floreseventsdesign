@@ -1,0 +1,27 @@
+.main {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80%;
+}
+.mainHeading {
+  font-size: 30px;
+  font-weight: 600;
+}
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogSection {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
