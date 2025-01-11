@@ -15,7 +15,7 @@ const BlogSection = () => {
         </div>
         <div className={blogSection}>
           {blogSectionItems.map((items) => (
-            <BlogCard key={items?.id} />
+            <BlogCard key={items?.id} item={items} />
           ))}
         </div>
       </div>

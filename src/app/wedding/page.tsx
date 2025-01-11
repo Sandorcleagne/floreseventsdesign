@@ -1,20 +1,18 @@
 import PhotoGallery from "@/components/PhotoGallery/PhotoGallery";
+import { weddingItems, weddingImages } from "@/constant";
 import React from "react";
-import {
-  FlowerArrangementgalleryItems,
-  flowerArrangementsImages,
-} from "@/constant";
-const FlowerArrangement = () => {
+
+const Wedding = () => {
   return (
     <div>
       <PhotoGallery
-        info={FlowerArrangementgalleryItems}
-        title="Flower Arrangements"
+        info={weddingItems}
+        title="Wedding"
         description="Experience the art of floral elegance with our bespoke flower arrangements, crafted to bring beauty to every moment."
-        imageList={flowerArrangementsImages}
+        imageList={weddingImages}
       />
     </div>
   );
 };
 
-export default FlowerArrangement;
+export default Wedding;

@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <ImageGridHomePage />
       <FeaturedProducts />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <Footer />
     </>
   );

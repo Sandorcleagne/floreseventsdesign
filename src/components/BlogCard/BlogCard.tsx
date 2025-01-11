@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "./BlogCard.module.css";
-const BlogCard = () => {
+interface BlogCardProps {
+  item: {
+    title: string;
+  };
+}
+
+const BlogCard: React.FC<BlogCardProps> = ({ item }) => {
   const { imageContainer } = styles;
   return (
     <div className="max-w-xs mx-auto bg-transparent shadow-lg rounded-lg overflow-hidden cursor-pointer">
@@ -18,7 +24,7 @@ const BlogCard = () => {
 
         {/* Content on Image */}
         <div className="absolute bottom-0 p-4 text-white">
-          <h2 className="text-2xl font-bold">Blog Title</h2>
+          <h2 className="text-2xl font-bold">{item?.title}</h2>
           <p className="mt-2 text-sm">
             A short description or preview of the blog content goes here.
           </p>
