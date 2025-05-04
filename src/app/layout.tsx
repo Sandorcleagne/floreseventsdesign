@@ -3,6 +3,14 @@ import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
+import dynamic from "next/dynamic";
+const WhatsAppButton = dynamic(
+  () => import("@/components/WhatsApp/WhatsAppButton"),
+  {
+    ssr: false,
+  }
+);
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,6 +28,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );

@@ -12,6 +12,8 @@ const ImageGridHomePage = () => {
         {homePageGridItems.map((items) => (
           <Link
             href={items?.link}
+            target="_blank"
+            rel="noopener noreferrer"
             key={items?.id}
             className={box}
             id={

@@ -32,9 +32,9 @@ const ProductCard: React.FC<MyComponentProps> = ({ info }) => {
         <div className={producInfoContainer}>
           <div className={productName}>
             <div>{info?.productName}</div>
-            <div className={info?.availability ? avaiProduct : notAvailable}>
+            {/* <div className={info?.availability ? avaiProduct : notAvailable}>
               {info?.availability ? "Available" : "Not Available"}
-            </div>
+            </div> */}
           </div>
           <div className={productPrice}>{info?.productPrice}</div>
         </div>

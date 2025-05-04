@@ -24,47 +24,52 @@ export const menuItems = [
 export const shopItems = [
   {
     id: 1,
-    image: "/flowers/flower1.jpg",
-    productName: "Ruysch Arrangement",
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746329856/white-rose-baby-breadth-garland_ujhy0m.png",
+    productName: "White Rose Wedding Garland",
     productDescription:
-      "Here is a description of your product. Pellentesque quis enim ac tortor malesuada tempus. Proin imperdiet, sem sed consequat consequat, erat nunc lobortis elit, id varius elit urna eget nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt pulvinar sodales. Aliquam sapien leo, scelerisque vel nisi id, porta elementum sem.",
-    productPrice: "Rs.200",
+      "Woven With : Baby's Breath & White Rose Dimension: 2.5 Feet Long , Quantity : 2, No's ( 1 Pair ). Express Free Delivery & Packaging Worth Rs.600, Garland Packed In Thermocol Box With Ice Pad To Ensure Freshness.",
+    productPrice: "Rs.5,995",
     availability: true,
   },
   {
     id: 2,
-    image: "/flowers/flower2.jpg",
-    productName: "De Heem Bouquet",
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746330806/red-pink-wedding-garland_rhe5fp.png",
+    productName: "Red And White Wedding Garland",
     productDescription:
-      "Here is a description of your product. Pellentesque quis enim ac tortor malesuada tempus. Proin imperdiet, sem sed consequat consequat, erat nunc lobortis elit, id varius elit urna eget nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt pulvinar sodales. Aliquam sapien leo, scelerisque vel nisi id, porta elementum sem.",
-    productPrice: "Rs.200",
+      "This handcrafted wedding garland is made with vibrant red and pink flowers, symbolizing love and purity. Perfect for traditional weddings, engagements, or special ceremonies, the garland adds a touch of cultural charm to bridal and groom attire. Lightweight and comfortable, it is designed for long ceremonies and stunning photoshoots.",
+    productPrice: "Rs.5275",
     availability: true,
   },
   {
     id: 3,
-    image: "/flowers/flower3.jpg",
-    productName: "Van Alest Bouquet",
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746331094/traditional-wedding-garland_t0hrdi.png",
+    productName: "Traditional Wedding Garland",
     productDescription:
-      "Here is a description of your product. Pellentesque quis enim ac tortor malesuada tempus. Proin imperdiet, sem sed consequat consequat, erat nunc lobortis elit, id varius elit urna eget nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt pulvinar sodales. Aliquam sapien leo, scelerisque vel nisi id, porta elementum sem.",
-    productPrice: "Rs.200",
+      "Make your special day memorable with this handcrafted Indian wedding flower garland. Designed with fresh pink and white roses, accented by soft pink touches and greenery, this garland symbolizes love and unity. Perfect for weddings, engagements, and cultural ceremonies, it enhances every moment with its vibrant beauty and fragrance. Lightweight and comfortable, it's ideal for long ceremonies.",
+    productPrice: "Rs.5800",
     availability: false,
   },
   {
     id: 4,
-    image: "/flowers/flower4.jpg",
-    productName: "Ruysch Arrangement",
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746331273/jasmine-flower-garland_tzamiq.png",
+    productName: "Jasmine Flower Garland",
     productDescription:
-      "Here is a description of your product. Pellentesque quis enim ac tortor malesuada tempus. Proin imperdiet, sem sed consequat consequat, erat nunc lobortis elit, id varius elit urna eget nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt pulvinar sodales. Aliquam sapien leo, scelerisque vel nisi id, porta elementum sem.",
-    productPrice: "Rs.150",
+      "Celebrate your special moments with this handcrafted jasmine flower wedding garland. Featuring fresh white jasmine blooms complemented by Baby's breath, this garland symbolizes purity and love. Perfect for weddings, engagements, and cultural ceremonies, this lightweight garland is comfortable to wear for extended durations and adds a classic touch to any celebration.",
+    productPrice: "Rs.6255",
     availability: true,
   },
   {
     id: 5,
-    image: "/flowers/flower2.jpg",
-    productName: "Vosmayer Agement",
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746331494/rajni-gandha-garland_lfwgv6.png",
+    productName: "Rajnigandha Garland",
     productDescription:
-      "Here is a description of your product. Pellentesque quis enim ac tortor malesuada tempus. Proin imperdiet, sem sed consequat consequat, erat nunc lobortis elit, id varius elit urna eget nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt pulvinar sodales. Aliquam sapien leo, scelerisque vel nisi id, porta elementum sem.",
-    productPrice: "Rs.500",
+      "This handcrafted Rajnigandha garland is perfect for traditional weddings and cultural ceremonies. Featuring vibrant orange thread combined with fresh white flowers, this garland symbolizes joy and purity. Lightweight and easy to wear, it’s ideal for long celebrations and rituals. Perfect for weddings, engagements, or festive occasions, this garland adds a vibrant touch to your special moments.",
+    productPrice: "Rs.6565",
     availability: true,
   },
 ];
@@ -107,7 +112,7 @@ export const homePageGridItems = [
       "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZXZlbnRzfGVufDB8fDB8fHww",
     text: "Events and Celebrations",
     cssId: "box-5",
-    link: "/event",
+    link: "/events-celebrations",
   },
   {
     id: 6,
@@ -367,4 +372,52 @@ export const weddingImages = [
   "https://images.unsplash.com/photo-1665960213530-3fb10da1f25e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGluZGlhbiUyMHdlZGRpbmd8ZW58MHx8MHx8fDA%3D",
   "https://images.unsplash.com/photo-1698460916760-b9e3bba58914?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "https://images.unsplash.com/photo-1656814516314-65483701d219?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHxpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fDB8fHww",
+];
+export const eventsAndCelebrationsItems: Array<{
+  image: string;
+  alt: string;
+  subtitle: string;
+  title: string;
+  description: string;
+  width: number;
+  height: number;
+}> = [
+  {
+    image:
+      "https://images.unsplash.com/photo-1744891470331-c660191721b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwcGFydGllcyUyMGltYWdlcyUyMGluJTIwSW5kaWF8ZW58MHx8MHx8fDI%3D",
+    alt: "office parties",
+    subtitle: "office parties",
+    title: "Office Parties",
+    description:
+      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+    width: 602,
+    height: 362,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1636256373111-cddaa1470363?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZpcnN0JTIwYmlydGhkYXl8ZW58MHx8MHx8fDI%3D",
+    alt: "birthday",
+    subtitle: "birthday",
+    title: "Birthday Parties",
+    description:
+      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+    width: 602,
+    height: 362,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1656435572228-0e3a000c4a8e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Bride to be",
+    subtitle: "Bride to be",
+    title: "Bridal Showers",
+    description:
+      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+    width: 602,
+    height: 362,
+  },
+];
+export const eventsAndCelebrationsImages = [
+  "https://images.unsplash.com/photo-1744891470331-c660191721b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwcGFydGllcyUyMGltYWdlcyUyMGluJTIwSW5kaWF8ZW58MHx8MHx8fDI%3D",
+  "https://images.unsplash.com/photo-1636256373111-cddaa1470363?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZpcnN0JTIwYmlydGhkYXl8ZW58MHx8MHx8fDI%3D",
+  "https://images.unsplash.com/photo-1656435572228-0e3a000c4a8e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 ];
