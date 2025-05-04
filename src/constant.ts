@@ -4,24 +4,47 @@ export const menuItems = [
     title: "Shop",
     href: "/shop",
   },
-  {
-    id: 2,
-    title: "Gallery",
-    href: "/gallery",
-  },
-  {
-    id: 3,
-    title: "About",
-    href: "/about",
-  },
-  {
-    id: 4,
-    title: "Contact",
-    href: "/contact",
-  },
+  // {
+  //   id: 2,
+  //   title: "Gallery",
+  //   href: "/gallery",
+  // },
+  // {
+  //   id: 3,
+  //   title: "About",
+  //   href: "/about",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Contact",
+  //   href: "/contact",
+  // },
 ];
 
 export const shopItems = [
+  {
+    id: 6,
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746332263/roses_ojayhc.png",
+    productName: "12 Roses Bouquete",
+    productDescription:
+      "Delight your loved ones with this stunning bouquet of 12 fresh, hand-picked red roses. Known for symbolizing love and passion, these roses make the perfect gift for anniversaries, birthdays, or any special occasion. Expertly arranged to capture the essence of romance, this bouquet brings elegance and beauty to any moment.",
+    productPrice: "Rs.799",
+    availability: true,
+    type: "bouquet",
+  },
+  {
+    id: 7,
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746332831/12-rose-black-cover_si8upd.png",
+    productName: "Romantic 12 Roses Bouquet",
+    productDescription:
+      "Have a feel of the significant beauty and elegance in our 12 Red Rose Prearranged Romantic Bouquet that has a stunning black wrapping over it. In case you want to express the longest feelings you harbor within, this bouquet is here to help make this happen as it symbolizes nothing else other than love in its true sense. For any special occasion, every single flower is carefully picked by hand so that no detail goes unnoticed thus resulting in an excellent gift that will forever remain in someone’s memory.",
+    productPrice: "Rs.745",
+    availability: true,
+    type: "bouquet",
+  },
+
   {
     id: 1,
     image:
@@ -31,6 +54,7 @@ export const shopItems = [
       "Woven With : Baby's Breath & White Rose Dimension: 2.5 Feet Long , Quantity : 2, No's ( 1 Pair ). Express Free Delivery & Packaging Worth Rs.600, Garland Packed In Thermocol Box With Ice Pad To Ensure Freshness.",
     productPrice: "Rs.5,995",
     availability: true,
+    type: "garland",
   },
   {
     id: 2,
@@ -41,6 +65,40 @@ export const shopItems = [
       "This handcrafted wedding garland is made with vibrant red and pink flowers, symbolizing love and purity. Perfect for traditional weddings, engagements, or special ceremonies, the garland adds a touch of cultural charm to bridal and groom attire. Lightweight and comfortable, it is designed for long ceremonies and stunning photoshoots.",
     productPrice: "Rs.5275",
     availability: true,
+    type: "garland",
+  },
+  {
+    id: 8,
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746333067/12-roses_grzwbt.png",
+    productName: "12 Fresh Roses Bouquet",
+    productDescription:
+      "Celebrate love, friendship, or any special occasion with this bouquet of 12 handpicked, fresh red roses. Wrapped beautifully with natural twine, these roses are perfect for anniversaries, birthdays, or romantic gestures. Their deep red color and lush green leaves make a striking combination, sure to leave a lasting impression. Make someone’s day extra special by gifting this timeless arrangement.",
+    productPrice: "Rs.699",
+    availability: true,
+    type: "bouquet",
+  },
+  {
+    id: 9,
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746333278/bright-yellow-rose-bouquete_igujiy.png",
+    productName: "Bright Yellow Roses Bouquet",
+    productDescription:
+      "Celebrate life's special moments with this vibrant bouquet of yellow roses, a symbol of friendship and joy. Freshly picked and elegantly wrapped in soft yellow paper, this beautiful arrangement is perfect for birthdays, anniversaries, or simply to brighten someone's day. Handcrafted with care, it features stunning yellow roses and lush green foliage, delivering warmth and cheer. Order this delightful bouquet to express your heartfelt sentiments today!",
+    productPrice: "Rs.745",
+    availability: true,
+    type: "bouquet",
+  },
+  {
+    id: 10,
+    image:
+      "https://res.cloudinary.com/dtxmt9jop/image/upload/v1746333479/hand-crafted-rose-bouqetes_xmlypi.png",
+    productName: "Handcrafted Rose Bouquet",
+    productDescription:
+      "This exquisite handcrafted rose bouquet features a stunning arrangement of 12 fresh red roses, symbolizing love and passion. Wrapped in elegant paper, this bouquet is perfect for expressing heartfelt emotions on special occasions like anniversaries, birthdays, or romantic gestures. Each rose is carefully selected for its beauty and freshness, ensuring a lasting impression. Gift this timeless bouquet to your loved ones and make their day unforgettable.",
+    productPrice: "Rs.2,955",
+    availability: true,
+    type: "bouquet",
   },
   {
     id: 3,
@@ -51,6 +109,7 @@ export const shopItems = [
       "Make your special day memorable with this handcrafted Indian wedding flower garland. Designed with fresh pink and white roses, accented by soft pink touches and greenery, this garland symbolizes love and unity. Perfect for weddings, engagements, and cultural ceremonies, it enhances every moment with its vibrant beauty and fragrance. Lightweight and comfortable, it's ideal for long ceremonies.",
     productPrice: "Rs.5800",
     availability: false,
+    type: "garland",
   },
   {
     id: 4,
@@ -61,6 +120,7 @@ export const shopItems = [
       "Celebrate your special moments with this handcrafted jasmine flower wedding garland. Featuring fresh white jasmine blooms complemented by Baby's breath, this garland symbolizes purity and love. Perfect for weddings, engagements, and cultural ceremonies, this lightweight garland is comfortable to wear for extended durations and adds a classic touch to any celebration.",
     productPrice: "Rs.6255",
     availability: true,
+    type: "garland",
   },
   {
     id: 5,
@@ -71,6 +131,7 @@ export const shopItems = [
       "This handcrafted Rajnigandha garland is perfect for traditional weddings and cultural ceremonies. Featuring vibrant orange thread combined with fresh white flowers, this garland symbolizes joy and purity. Lightweight and easy to wear, it’s ideal for long celebrations and rituals. Perfect for weddings, engagements, or festive occasions, this garland adds a vibrant touch to your special moments.",
     productPrice: "Rs.6565",
     availability: true,
+    type: "garland",
   },
 ];
 export const homePageGridItems = [
